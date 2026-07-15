@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    align-items: center;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center; /* horizontal centering */
+    gap: 100px;              /* space between boxes */
+    margin-top: 30px;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-area {
+    display: flex;
+    justify-content: center; /* centers input + button */
+    gap: 10px;
+    margin-top: 100px;
+}
+
+
+#Dark {
+    display: block;
+    margin: 100px auto;
+}
